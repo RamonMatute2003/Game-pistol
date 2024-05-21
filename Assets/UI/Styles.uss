@@ -1,0 +1,25 @@
+.buttons {
+    width: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: rgb(59, 255, 59);
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.buttons:hover {
+    font-size: 45px;
+    -unity-font-style: bold-and-italic;
+}
+
+.menu {
+    translate: 0 100%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.menu_active {
+    translate: 0 0;
+}
